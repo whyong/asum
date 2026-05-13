@@ -4,6 +4,8 @@
 
 **ASUM** (涌积态宇宙模型) is a purely algebraic, matrix-evolution engine for simulating non-equilibrium complex systems. Built on the core axiom of **Information-Thermodynamic Dualism**, it drives a ternary scalar field system (Substrate, Intermediate, High-order structure) to undergo spontaneous phase transitions and spatial differentiation under unsupervised conditions.
 
+*This theory and architecture were independently formulated and developed by **Wang Hongyong** between **March 26, 2026, and April 15, 2026**.*
+
 Through 21 days of continuous iteration and rigorous mathematical verification, ASUM successfully reproduced **Bistable Turing Oscillations** and **First-Order Phase Transitions** in a continuous 1,000,000-frame Deep Time numerical experiment, with an unprecedented mass-conservation drift of only `0.003%`.
 
 ## 🔬 Core Philosophy: The L/D Dualism
@@ -35,8 +37,6 @@ The universe runs on a $128 \times 128$ periodic grid, defined by three interact
 
 The system rigorously obeys global mass conservation:
 
-
-
 $$\frac{d}{dt} \int_\Omega (P + C_1 + C_2) \, dV = 0$$
 
 ## 🚀 Implications for AI and Complex Systems
@@ -58,7 +58,7 @@ ASUM is built entirely on standard Python scientific computing libraries. No hea
 ### Quick Start
 
 ```
-git clone [https://github.com/yourusername/ASUM.git](https://github.com/yourusername/ASUM.git)
+git clone [https://github.com/whyong/asum.git](https://github.com/whyong/asum.git)
 cd ASUM
 
 # Run the v11.0 final baseline model (Standard 24,000 frames)
@@ -75,20 +75,33 @@ For a deep dive into the mathematical proofs, parameter baselines, and historica
 - `涌积态宇宙模型 v11.0 — 架构设计文档.md` (v11.0 Architecture Design)
 - `V8-T-010 百万帧长程测试归档报告.md` (1-Million Frame Test Log)
 
+## ⚖️ License & Academic Archiving
+
+### Open Source License
+
+This project is open-sourced under the **GNU Affero General Public License v3.0 (AGPLv3)**. This ensures that any modifications, derivative works, or network-deployed services based on this mathematical engine remain fully open-source and accessible to the community.
+
+### Zenodo Archiving
+
+To guarantee scientific reproducibility and permanent academic record, the complete theoretical framework, code snapshots, ablation studies, and the 1-million-frame test logs are permanently archived on **Zenodo**.
+
 ## 👤 Author & Citation
 
-**Author**: Wang Hongyong (April 2026)
+- **Author & Theory Creator**: Wang Hongyong (王洪勇)
+- **Theory Formulation Period**: March 26, 2026 – April 15, 2026
 
-If you find this model inspiring for your research in Non-equilibrium Thermodynamics, Artificial Life, or AI Architectures, please consider citing this repository.
+If you use ASUM's logic, operators, or code in your research regarding Non-equilibrium Thermodynamics, Artificial Life, or Generative AI Architectures, please formally cite the Zenodo archive:
 
 ```
-@misc{wang2026asum,
-  author = {Wang Hongyong},
-  title = {The Accumulated-State Universe Model (ASUM)},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/yourusername/ASUM](https://github.com/yourusername/ASUM)}}
+@software{wang_hongyong_2026_asum,
+  author       = {Wang Hongyong},
+  title        = {The Accumulated-State Universe Model (ASUM): A Matrix-Evolution Engine for Complex Systems},
+  month        = apr,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v11.0},
+  doi          = {10.5281/zenodo.20149583},
+  url          = {[https://doi.org/10.5281/zenodo.20149583](https://doi.org/10.5281/zenodo.20149583)}
 }
 ```
 
